@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bruno C.Gomes " />
+    <title>Document</title>
+    <link href="Css/estilo.css"  rel="Stylesheet" type="text/css" media="all" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>IMC - Índice de Massa Corporal</h1>
+        </div>
+        <hr/>
+    </header>
+    <main>
+        <div class="container">
+             <!-- plano de fundo - selection que centraliza-->
+             <section class="fundo">
+                <form onsubmit="return false;">
+                    <label>Altura:</label><br/>
+                    <input type="text" placeholder="0,00" id="altura" onkeydown="verificarInput(event);" /><label> M</label>
+                    <br/><br/>
+                    <label>Peso:</label><br/>
+                    <input type="text" placeholder="0,00" id="peso" onkeydown="verificarInput(event);"/><label> KG</label>
+                    <br/><br/>
+                    <button onclick="calcularImc();" >Calcular IMC</button>
+                </form><br/><br/>
+                <hr/><br/><br/>
+                <h2 id="result"></h2>
+                <h2 id="imc"></h2>
+            </section>    
+        </div>
+    </main>
+    
+
+    <!--Meu JS-->
+    <script src="Js/script.js"></script>
+</body>
+</html>

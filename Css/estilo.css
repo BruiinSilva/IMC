@@ -1,0 +1,70 @@
+/* mexe no tamanho da tela */
+main div {
+    padding: 30px 20px;
+    background-image: url(../img/pexels-cottonbro-4325442.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border-left: 2px solid rgb(79, 23, 211);
+    border-top: 2px solid rgb(236, 40, 138);
+    border-right: 2px solid rgb(235, 3, 100);
+    border-bottom: 2px solid rgb(17, 1, 10);
+  }
+  
+
+
+  /* mexe no tamanho fundo*/
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 30%;
+  }
+
+  /* mexe no tamannho do visor */
+ form {
+    padding: 30px 15px;
+    border-radius: 20px;
+    border: 3px rgb(63, 18, 224) outset;
+    box-shadow: 1px 5px black;
+    background-color: white;
+  }
+  
+  /*da um efeito no botão*/
+  button:hover{
+    cursor: pointer;
+    background-color: #85e735;
+    transition: 0.5s;
+  }
+
+    /* mexe na largura do visor*/
+    input {
+        width: 100px;
+        margin-top: 5px;
+        border-radius: 5px;
+        padding: 5px 5px;
+        border: 1.5px #111 solid;
+        text-align: end;
+      }
+      label {
+        font-weight: bolder;
+      }
+
+      button {
+        width: 80%;
+        margin: 0px 10px;
+        padding: 5px 0px;
+        border-radius: 6px;
+        border: 1px none;
+        background-color: #e40909;
+        font-weight: bolder;
+        color: rgb(253, 253, 253);
+        transition: 0.5s;
+      }
+
+        /* mexe no formato da letra*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
